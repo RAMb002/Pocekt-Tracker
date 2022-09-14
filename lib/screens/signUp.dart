@@ -62,7 +62,7 @@ class _SignupScreenState extends State<SignupScreen> {
             ),
           ),
           actions: <Widget>[
-            FlatButton(
+            TextButton(
               child: Text(
                 'OK',
                 style: textThemeDefault.bodyText1,

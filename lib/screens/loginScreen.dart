@@ -55,7 +55,7 @@ class _LoginScreenState extends State<LoginScreen> {
             ),
           ),
           actions: <Widget>[
-            FlatButton(
+            TextButton(
               child: Text(
                 'OK',
                 style: textThemeDefault.bodyText1,

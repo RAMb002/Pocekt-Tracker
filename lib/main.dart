@@ -13,7 +13,6 @@ import 'package:flutter/services.dart';
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(
-    options: DefaultFirebaseOptions.currentPlatform,
   );
   FirebaseAuth auth = FirebaseAuth.instance;
   WidgetsFlutterBinding.ensureInitialized();
